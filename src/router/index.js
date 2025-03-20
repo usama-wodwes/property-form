@@ -10,6 +10,12 @@ const router = createRouter({
       name:'form',
       component:Form
     },
+    {
+      path:'/form2',
+      name:'form2',
+      component: () => import('@/views/From2.vue')
+    }
+    
   ]
 })
 export default router;
